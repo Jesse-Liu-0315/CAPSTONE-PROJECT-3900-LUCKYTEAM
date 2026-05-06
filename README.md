@@ -1,129 +1,189 @@
-# capstone-project-3900h18bluckyteam
+# 🎬 Capstone Project – MovieFinder
 
-capstone-project-3900h18bluckyteam created by GitHub Classroom
+This project is developed as part of a capstone course using a pre-configured Lubuntu virtual machine.
 
-(Lubuntu 20.4.1 LTS virtual machine image in the VirtualBox 6.1.44) 
+---
 
-Remember!!! Everytime open a new terminal you always run the code: 
+## 🖥️ Environment
 
-$ sudo su 
+- OS: Lubuntu 20.04.1 LTS
+- VM: VirtualBox 6.1.44
 
-$ cd 
+⚠️ **Important**  
+Every time you open a new terminal, run:
 
+```bash
+sudo su
+cd
+```
 
-6.1Checking the MySQL  
+---
 
-Firstly, check if the computer has the MySQL server. Open a terminal. 
+## ⚙️ 1. MySQL Setup
 
-Use the code: 
+### 1.1 Check MySQL Installation
 
-$ mysql -V 
+```bash
+mysql -V
+```
 
-If no version is displayed, it means that there is no MySQL on this computer. 
-Then you need to install the MySQL. 
+If no version is shown, install MySQL:
 
-1.Update package list and upgrade packages: 
+---
 
-$ sudo apt-get update
+### 1.2 Install MySQL
 
-$ sudo apt-get upgrade 
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install mysql-server
+```
 
-2.Install the MySQL package: 
+---
 
-$ sudo apt-get install mysql-server 
+### 1.3 Set Root Password
 
-3.During the installation, you will be prompted to set a root password for MySQL. You should set the password as ‘123456’. 
+During installation, set:
 
-$ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456'; 
+Password: 123456
 
-4.When installation was done, you can use the MySQL by using the command: 
+Then run:
 
-$ mysql -uroot -p 
+```sql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
+```
 
-Then enter ‘123456’ 
+---
 
-5.Create the database by running: 
+### 1.4 Start MySQL
 
-$ create database MOVIEFINDER; 
+```bash
+mysql -uroot -p
+# Enter password: 123456
+```
 
+---
 
-6.2 Checking the Nodejs 
+### 1.5 Create Database
 
-Firstly, we need to install nodejs by entering: 
+```sql
+CREATE DATABASE MOVIEFINDER;
+```
 
-$ sudo apt install nodejs 
+---
 
-$ sudo apt install npm
+## 🟢 2. Node.js Setup
 
-$ sudo npm i -g yarn 
+### 2.1 Install Node.js & Tools
 
-After these progress, you should check the nodejs version by entering: 
+```bash
+sudo apt install nodejs
+sudo apt install npm
+sudo npm i -g yarn
+```
 
-$ node -v 
+---
 
-If the version not >= 16.14.2 
+### 2.2 Check Version
 
-You should run: 
+```bash
+node -v
+```
 
-$ npm install -g n 
+Required version:
 
-$ n stable 
+>= 16.14.2
 
-Then close the terminal, open the terminal again. Now check the nodejs version again. 
-It will change to newest version. 
+---
 
+### 2.3 Upgrade Node.js (if needed)
 
-6.3 Checking the Python libraries. 
+```bash
+npm install -g n
+n stable
+```
 
-Before starting the backend, you should check if the python libraries is all installed. 
+Then restart terminal and re-check version.
 
-Just run: 
+---
 
-$ cd ~/capstone-project-3900h18bluckyteam 
+## 🐍 3. Python Dependencies
 
-$ pip install -r requirements.txt 
+```bash
+cd ~/capstone-project-3900h18bluckyteam
+pip install -r requirements.txt
+```
 
-Then it will be ok. 
+---
 
+## 🚀 4. Run the Project
 
-6.4 Starting the Backend:  
+### 4.1 Start Backend
 
-Open a new terminal, clone the project repository to the directory.  
+```bash
+cd ~/capstone-project-3900h18bluckyteam/backend/src
+python3 server.py
+```
 
-~/capstone-project-3900h18bluckyteam. 
+---
 
-Next, use the commands:  
+### 4.2 Start Frontend
 
-$ cd ~/capstone-project-3900h18bluckyteam/backend/src 
+```bash
+cd ~/capstone-project-3900-h18b-luckyteam/frontend
+yarn install   # First time only
+yarn start
+```
 
-$ python3 server.py
+---
 
-It will start the backend. 
+### 4.3 Access Application
 
+Open browser:
 
-6.5 Starting the Frontend:  
+http://localhost:3000
 
-Once the backend is running, open a new terminal.
+---
 
-run the frontend server by entering the next set of commands: 
+## ⚠️ 5. Notes
 
-$ cd ~/capstone-project-3900-h18b-luckyteam/frontend 
+- Make sure backend is running before starting frontend
+- Use separate terminals for backend and frontend
 
-$ yarn install 
+---
 
-$ yarn start 
+## 🆘 6. Troubleshooting
 
-If you firstly using the code, you should enter the  
+### Logout Issue
 
-$ yarn install
+Problem:
+- "Logout" button is visible but not working
 
-Then every time you use it, you just need to type:
+Cause:
+- Backend was forcefully stopped
+- Token state became invalid
 
-$ yarn start
+Solution:
+- Restart backend
+- Refresh browser
+- Or re-login
 
-At last, open the Firefox browser, go to the “http://localhost:3000”, then you can use the project well. 
+Refer to section 6.6 Emergency in the report for more details.
 
+---
 
-6.6 Emergency 
+## 📦 Project Structure
 
-When you newly open the backend and frontend, you will find that the word logout appears in the upper right corner of the page, and you cannot log out. In this case, the logout operation was not performed after the backend was forced, resulting in token invalidation. For details, see 6.6 Emergency in the report.
+```
+capstone-project/
+├── backend/
+├── frontend/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 👨‍💻 Author
+
+Capstone Project Team – Lucky Team
