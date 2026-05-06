@@ -1,0 +1,21 @@
+z5280148
+
+Week 1: Group formed. I created the Jira & GitHub accounts. I also found and discussed with the team all available software tools.
+
+Week 2: Join our team in Jira and Github. Plan to finish drawing UI.
+
+Week 3: Help jiaxi and supeng to fix backend bugs. Finished Drawing UI graphs in proposal. Plan to build frontend environment and finish user login, register and set password.
+
+Week 4: Help jiaxi and supeng to fix backend bugs. Built frontend environment. Finished html and reactjs of narbar, login, register, reset password and search bar in home page. Plan to finish search bar in home page, movie detail, user profile, error tips, success tips, make request to backend and image encode to base64.
+
+Week 5: Help jiaxi and supeng to fix backend bugs. Yining write static html and I convert them into reactjs. Finished reactjs of search bar in home page, movie detail, user profile, error tips, success tips, make request to backend and image encode to base64. Plan to fix bugs in sprint 1.
+
+Week 6: Help jiaxi and supeng to fix backend bugs. Fix bugs of logout button, movie cover of movie detail page and pytest environment. Finished reactjs of watchedlist, wishlist, verification of register and forgot password, pagination of search result page, upload user photo. Plan to update movie detail page and finish message page.
+
+Week 7: Help jiaxi to fix backend bugs. Fix bugs of watchedlist and wishlist. Update movie detail page. Finished message page, added, seen, director, cast and rate in movie detail page. Plan to finish search user, cast and direactor.
+
+Week 8: Help jiaxi to fix backend bugs. Fixed css of cast detail, movie detail, other user profile, other watched list and other wish list. Finished search cast, search director, search user, blacklist and review in movie detail page. Plan to finish user tag and sort search result.
+
+Week 9: Help jiaxi to fix backend bugs. Fixed scroll bar of message page. Finished user tag, sort movie search, sort cast search, sort director search, sort user search.
+
+Week 10: Fix message delete. Fix css of almost page. Write implementation challenges and functionality of frontend in report. Fix the bug of token be bytes in Ubuntu. Fix eslint of react. 

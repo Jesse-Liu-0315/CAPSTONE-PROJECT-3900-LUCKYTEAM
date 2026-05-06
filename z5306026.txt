@@ -1,0 +1,11 @@
+week2: choose the project
+week3: assign personal tasks for proposal, finish the user stories and sprints.
+week4: finish the user profile page, movie detail page.
+week5: fix bugs for the user profile page, movie detail page.
+week6: finish the retrospective A and write the code for email verification
+week7: finish the director and cast page, help jiaxi liu to fix some data about director and cast.
+week8: help jiaxi liu to fix the most reviewed movies and top rated movies from backend. fix the director and cast page, finish home page, write retrospective B.
+week9：help jiaxi liu and Supeng wu to fix the movies for backend, fix the home page, finish 'you may like these movies' part of moviedetail page, 
+       finish 'similar movies' part of moviedetail page. finish the unread message part to show the number of unread messages at the message chatbox. 
+       fix css of 'you may like' and similar movie. write final project report. write the ppt for final demo.
+week10: finish final project report. finish the ppt for final demo.fix the report and readme.

@@ -1,0 +1,142 @@
+z5320711
+week2 (20/02/2023-26/02/2023)
+I joined a group and participated in discussions on all 10 topics. 
+At first, after reviewing the detailed requirements for each topic, 
+I chose one about parking space rental. I thought that the existing 
+app Oscar could be used as a reference for our project. However, my 
+choice was rejected after discussion because I couldn't figure out 
+how to implement the payment system mentioned in the requirements. 
+After asking classmates who had taken this course and searching 
+online for some examples, we unanimously chose the movie search 
+system as our topic. Over the weekend, I created a proposal document 
+and filled in basic information and table of contents on the homepage.
+I also created my own branch on github and try to merge to main branch.
+
+
+
+week3 (27/02/2023-05/03/2023)
+On Thuesday (28/02/2023), I asked everyone in the group to have a meeting. 
+First, we discussed proposal task allocation. I was assigned to write 
+the background and assist others who write slowly. Then we discussed 
+the backlog and user story. I propose to complete all backlog and user 
+story filling before Wednesday, including novel functions.
+
+On Wednesday (01/03/2023), I finished most ofthe background and user 
+story filling. I rejected some user stories written by people that 
+were repetitive and not following the user story standards. Then I asked 
+everyone started writing proposals.
+
+On Thursday (02/03/2023), I finished the background of the project.
+
+On Friday (03/03/2023), I found that the people who wrote User stories 
+and Sprint did not follow the requirements. The people assigned to 
+write User stories and Sprint are Libo Cheng and Yining Zhang. What 
+they wrote did not explain in detail how to implement user stories 
+point by point and complete partly. After expressing my dissatisfaction, 
+I started making changes myself. I didn't finish changing what they 
+wrote before I went to bed, so I asked them to continue to change in the
+way that I changed
+
+On Saturday (04/03/2023), In the evening, i noticed that the User stories and Sprint 
+sections didn't change at all after I changed them. I thought we might 
+not be able to finish it on time, so I finished it all by myself. 
+I also helped qingsen zhang with the ui design of the web page. 
+
+On Sunday (05/03/2023), I helped put together and polish the entire proposal.
+
+
+
+week4 (06/03/2023-12/03/2023)
+On Thuesday (07/03/2023), I had a group meeting, which was mainly
+talk about the allocation of demo A code tasks. We have determined 
+the specific output details and the desired effects to be achieved 
+during the demonstration A.
+
+On Thursday (09/03/2023), I finished creating the database which is 
+specficied in the proposal. I also finished the code of the login, 
+logout, register. Beforing coding, I wrote the test cases for
+the code.
+
+On Saturday (11/03/2023), Supeng Wu have a database about the movie.
+It is a excel file. I tried to convert it to a database. 
+
+On Sunday (12/03/2023), We had a meeting to standardize the environment 
+for everyone. I finished the code of the reset password. 
+
+
+
+week5 (13/03/2023-19/03/2023)
+On Monday (13/03/2023), I and Supeng Wu tring to use mongodb 
+instead of mysql. I and Qingsen Zhang debug the code between backend
+and frontend. We make sure that login, logout register and reset password
+works well.
+
+On Wednesday (15/03/2023), I debuged all the functions with Qingsen Zhang, and 
+finish user_profile page that was assigned to others.
+
+On Thursday (16/03/2023), do DEMO A. Have a retrospective meeting, Assign 
+the parts that need improvement to each team member.
+
+On Sunday (19/03/2033), I completed the email verification when registering 
+and changing password, stored token in the database, added images to movie 
+details page, and added/uploaded images functions to user details page.
+
+
+
+Week6 (10/03/2023 - 26/03/2023)
+On Wednesday (22/03/2023), I proofread the retrospective which was done by Yining Zhang.
+
+On Thursday (23/03/2023), I started the Sprint 2
+
+On Sunday (26/03/2023), I finished the code of cast detail, director detail,
+and improve movie detail. I also finished the code of the watched list,
+wishlist, blacklist, and the friend list. After that, I debuged the code
+with my Qingsen zhang, connecting the backend and frontend about wish list, 
+wacthed list, blacklist, and friend list.
+
+
+Week7 (27/03/2023 - 02/04/2023)
+On Monday (27/03/2023), I get the director and cast data from Supeng Wu.
+The data is dirty, so I cleaned it and added it to the database.
+
+On Wednesday (29/03/2023), I test my code by my test code. I debuged my own
+code before the frontend created.
+
+On Thursday (30/03/2023), I helped Libo Cheng and Yining zhang to get the 
+right environment to our project includes installing MySQL, react, flask, 
+pymysql, pytest, and other packages. I also helped them to firslty run the
+backend and frontend. The previous front-end work I have reason to believe 
+was all written by qingsen zhang. I and qingsen zhang debuged the code about
+message, so that the function of message can be used in frontend.
+
+On Friday (31/03/2023), I finished the code of the review add, display, rating,
+and delete. I optimized the review display and search user display to make 
+the blacklist function work in this two pages which should be done by others.
+I and qingsen zhang debuged the code about review, so that the function of review
+can be used in frontend.
+
+week8 (03/04/2023 - 09/04/2023)
+On Monday (03/04/2023), I debug and adjust some return about movie detail, cast detail,
+director detail, and review. I also debug the code about wishlist, watched list, blacklist.
+
+On Friday (07/04/2023), After demo, I delete the duplicate code in the backend by building many help function.
+I rebuild the database for better performances by using pymysqlpool. I also add the function of message, so that 
+it can send picture and delete  message. I finished the backend code of index. 
+
+On Saturday (08/04/2023), I debug the code about index, and make sure that the index page can display the
+correct data. I also debug the code about message, so that the function of message can be used in frontend.
+
+On Sunday (09/04/2023), I finish the function of admnin add tag. I polish the retrospective.
+
+week 9 (10/04/2023 - 16/04/2023)
+I finish the function of recommendation, message unread notification. Standardized the API methods again.
+I also debug the code about recommendation, so that the function of recommendation can be used in frontend.
+Adjusted the comments to make them easier to understand. 
+
+I finish almost all the powerpoint slides for the final presentation, and write the most of the script.
+Maybe 80% of the script is written by me, and 90% of the slides are made by me.
+
+week 10 (17/04/2023 - 23/04/2023)
+I have writen part 4.2 of the report, improved 1, 3.2, 5 of the report, and finished the final presentation.
+I debuged the code about recommendation and forced includes and excludes. I helped to make it run on 
+the virtual machine.  

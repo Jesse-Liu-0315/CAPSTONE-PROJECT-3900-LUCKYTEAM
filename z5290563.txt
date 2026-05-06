@@ -1,0 +1,11 @@
+z5290563
+week2: Joined in a team, discussed the project topic with the team members.
+Finally, we confirmed what the topic and background are. Then discussed a little about the sprint and backlogs.
+week3: I thought about two backlogs, then I finish my proposal parts. It contains the report formatting and the
+user flows. At last, I helped Qingsen checked out the images and the words.
+week4: finished the backend of the search results page and detail page.
+week5: Got the data about directors of top250 movies and add suggestion of the retrospective.
+week6: Got the data about actors of top250 movies.
+week7: help finish the part content of add reviews part.
+week8: add some part in the finaldemo ppt
+week9: finished most of the report content, and complete my own speech content.

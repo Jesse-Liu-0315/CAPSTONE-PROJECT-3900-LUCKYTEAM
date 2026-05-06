@@ -1,0 +1,36 @@
+z5324974
+week1:
+find teammates
+week2: 
+we discuss the different topics and choose which we are most interested and most likely to implement code.
+I create Jira and invite our teammates.
+I am responsible for record meetings and be scrum master.
+week3:
+I write some backlogs.
+I create 3 sprints in Jira,set date assign different backlogs in sprint.
+I write user story in proposal.
+record meetings.
+week4:
+start do the first sprint, i am responsible for front end.
+week5:
+finish the homepage.html, search_result.html, movie_details.html
+week6:
+write retrospective A and write meet recording
+week7:
+learning react frame and writing other people profile,other people wishlist, other people watchedlist
+week8:
+help libo complete chast profile and director profile, complete add friend, delte friend, add block, delete block in other profile
+week9：
+write retrospective B，
+finish share pictures to the chat box. 
+finish Chat box display user profile picture. 
+finish send photo in message.
+finish delete message in message.
+finish add friend the send a message automatically.
+fihish share movie，director，cast and user.
+fix add friend and block user bug.
+week10：
+fix method problem with Jiaxi. 
+write page structure.
+prepare final demo.
+write final report.
